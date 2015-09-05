@@ -1,0 +1,21 @@
+
+Files are RFC-4180-compliant CSV files with a single row of column names.
+
+The names reflect how the defect is represented.
+ 'multiply': the resistance of bonds involving the site is increased
+ 'remove': the site and all connected edges are removed
+
+MIND YOUR STEP!!:
+ * R0 (the unit of resistance) is the initial resistance of a SINGLE BOND!
+
+ * The middle column is intended to be an alternate x-axis.
+
+ * NOT ALL FILES USE THE SAME X DATA!!!
+   The 'remove' data is provided at a higher resolution.
+   The 'multiply-5' data ran for longer.
+
+ * The 'remove' data uses 'inf' to represent infinite resistance.
+
+HISTORY:
+ - 2015-07-22: First produced
+
